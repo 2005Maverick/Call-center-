@@ -1,0 +1,92 @@
+================================================================================
+COMPREHENSIVE CALL CENTER AUDIO ANALYSIS REPORT
+================================================================================
+
+SUMMARY STATISTICS
+----------------------------------------
+Total calls analyzed: 10
+Average call duration: 380.20 seconds
+Duration range: 26.5 - 892.0 seconds
+
+EMOTION ANALYSIS
+----------------------------------------
+Angry: 7 calls (70.0%)
+Calm: 2 calls (20.0%)
+Sad: 1 calls (10.0%)
+
+Average emotion confidence: 0.482
+
+PRIORITY ANALYSIS
+----------------------------------------
+MEDIUM priority: 6 calls (60.0%)
+LOW priority: 2 calls (20.0%)
+HIGH priority: 2 calls (20.0%)
+
+High priority calls breakdown:
+  - sad: 1 calls
+  - angry: 1 calls
+
+ANOMALY ANALYSIS
+----------------------------------------
+Total anomalies detected: 1 (10.0%)
+
+TOP PRIORITY CALLS FOR MANUAL REVIEW
+----------------------------------------
+1. 20250528-185318_09839843903-all.mp3
+   Priority: HIGH, Emotion: sad
+   Duration: 758.4s, Composite Score: 2.10
+   Anomaly: Yes
+
+2. 20250510-092404_09929197793-all.mp3
+   Priority: HIGH, Emotion: angry
+   Duration: 697.1s, Composite Score: 2.00
+   Anomaly: No
+
+3. 20250522-151219_07719882801-all.mp3
+   Priority: MEDIUM, Emotion: angry
+   Duration: 740.4s, Composite Score: 1.60
+   Anomaly: No
+
+4. 20250506-165041_09567458353-all.mp3
+   Priority: MEDIUM, Emotion: angry
+   Duration: 892.0s, Composite Score: 1.30
+   Anomaly: No
+
+5. 20250513-163619_07367970951-all.mp3
+   Priority: MEDIUM, Emotion: angry
+   Duration: 185.7s, Composite Score: 1.30
+   Anomaly: No
+
+6. 20250501-182852_08168432922-all.mp3
+   Priority: MEDIUM, Emotion: angry
+   Duration: 49.1s, Composite Score: 1.30
+   Anomaly: No
+
+7. 20250520-150026_09954143541-all.mp3
+   Priority: MEDIUM, Emotion: angry
+   Duration: 181.9s, Composite Score: 1.30
+   Anomaly: No
+
+8. 20250501-091627_09236994218-all.mp3
+   Priority: MEDIUM, Emotion: angry
+   Duration: 214.6s, Composite Score: 1.30
+   Anomaly: No
+
+9. 20250501-105020_09709511122-all.mp3
+   Priority: LOW, Emotion: calm
+   Duration: 26.5s, Composite Score: 0.40
+   Anomaly: No
+
+10. 20250502-113716_08926710168-all.mp3
+   Priority: LOW, Emotion: calm
+   Duration: 56.2s, Composite Score: 0.40
+   Anomaly: No
+
+RECOMMENDATIONS
+----------------------------------------
+⚠️  High percentage of angry calls detected - consider agent training on de-escalation
+📈 1 exceptionally long calls detected - investigate for efficiency improvements
+
+✅ Prioritize manual review of 10 highest-scoring calls
+✅ Focus quality assurance on 1 anomalous calls
+✅ Consider additional agent training based on emotion distribution patterns
